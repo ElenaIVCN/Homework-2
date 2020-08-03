@@ -1,0 +1,233 @@
+.contact-us {
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    margin-top: 50%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+ }
+ 
+ .first {
+     font-size: 20px;
+     font-family: Arial;
+     padding: 0px 0px 0px 30px;
+ 
+ }
+ 
+ .second {
+     font-size: 10px;
+     font-family: Arial;
+     padding: 10px 0px 0px 20px;
+ }
+ 
+ .wrapper {
+     width: 100%;
+     align-self: center;
+     margin: 30px;
+     display:table;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: auto;
+ }
+ 
+ .form-area {
+     display: flex;
+     background-color: rgb(233, 233, 233);
+     line-height: 1.5em;
+     height: 200px;
+     width: auto;
+     padding: 5px 5px 5px 20px;
+ }
+ 
+ .msg-area {
+     flex-direction:column ;
+     order: 2;
+ }
+ 
+ .msg-area > textarea {
+     display: block;
+     min-width: 10em;
+     background: white;
+     color: white;
+     padding: 1px;
+     height: 120px;
+     border: 0.3px solid gray;
+     border-radius: 5px;
+ }
+ 
+ ::placeholder {
+     font-family: Arial;
+ }
+ 
+ .details-area {
+     flex: 1;
+     margin-right: 20px;
+     align-self: auto;
+     line-height: 1.5em;
+ }
+ 
+ .details-area input {
+     display: block;
+     width: 300px;
+     background: white;
+     color: white;
+     border-radius: 5px;
+     border: 0.3px solid gray;
+ }
+ 
+ @media (max-width: 300px) {
+     .details-area input {
+         width: 50px;}
+     }
+ 
+ button {
+     font: 12px Arial;
+     align-items: flex-start;
+     cursor: default;
+     text-indent: 0px;
+     text-shadow: none;
+     letter-spacing: normal;
+     word-spacing: normal;
+     text-rendering: auto;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+ }
+ 
+ button input {
+     overflow: visible;
+ }
+ 
+ .btn {
+     display: inline-block;
+     text-align: center;
+     vertical-align: middle;
+     border: 1px solid transparent;
+     background-color: rgb(122, 122, 221);
+     margin-top: .25rem;
+     margin-bottom: .25rem;
+     cursor: pointer;
+ }
+ 
+ .btn-lg {
+     padding: .5rem 1rem;
+     font-size: 1 rem;
+     line-height: 1.5;
+     border-radius: .3rem;
+     float: right;
+ }
+ 
+ label {
+     order: 1;
+     font: 15px Arial;
+     font-weight: bold;
+     color: rgb(46, 43, 43);
+ }
+ 
+ .extra-info {
+     align-self: center;
+     font: 20px Arial;
+     color: rgb(42, 42, 42);
+     text-align: center;    
+ 
+ }
+ 
+ .nav-link-wrapper {
+     height: 22px;
+     border-bottom: 1px solid transparent;
+     word-wrap: break-word;
+ }
+ 
+ .nav-link-wrapper a {
+     color: blue;
+     text-decoration: none;
+     font:12px Arial;
+ }
+ 
+ .nav-link-wrapper:hover {
+     border-bottom: 1px solid transparent; 
+ }
+ 
+ .Social-media {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 20px 20px 20px 20px;
+     border-top: 1px solid gray;
+ }
+ 
+ @media (max-width: 300px) {
+     .Social-media {
+         display: list-item;}
+     }
+ 
+ @media only screen and (min-width: 768px) {
+     .contact-us {
+         margin-top: 40%;
+      }
+      
+      .first {
+          font-size: 25px;
+          padding: 0px 0px 0px 150px;
+      }
+      .second {
+          font-size: 15px;
+      }
+ 
+      .wrapper {
+         width: 70%;
+     }
+     
+     .form-area {
+         width: auto;
+         padding: 5px 5px 5px 20px;
+     }
+ 
+     .msg-area > textarea {
+         min-width: 20em;
+     }
+     
+     .details-area {
+         margin-right: 20px;
+     }
+     
+     .details-area input {
+         width: 250px;
+     }
+ }
+ 
+ @media only screen and (min-width: 620px) {
+     .contact-us {
+         margin-top: 20%;
+      }
+      
+      .first {
+          font-size: 30px;
+          padding: 0px 0px 0px 200px;
+      }
+      .second {
+          font-size: 20px;
+      }
+ 
+      .wrapper {
+         width:30%;
+     }
+     
+     .form-area {
+         width: auto;
+         padding: 5px 5px 5px 20px;
+         height: auto;
+     }
+ 
+     .msg-area > textarea {
+         min-width: 20em;
+         height: 100px;
+     }
+     
+     .details-area {
+         margin-right: 20px;
+     }
+     
+     .details-area input {
+         width: 250px;
+     }
+ }

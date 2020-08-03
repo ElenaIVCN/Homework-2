@@ -1,0 +1,17 @@
+.contact-banner {
+    margin-top: 10rem;
+}
+
+.contact-us {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #eeeeee;
+    background-color: #eeeeee;
+    padding: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+

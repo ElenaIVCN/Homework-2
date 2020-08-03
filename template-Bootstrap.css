@@ -1,0 +1,103 @@
+
+.container {
+    max-width: 960px;
+}
+
+.nav-bar .btn {
+    padding: .375rem 3.2rem;
+    border-radius: 0;
+}
+.nav-bar .btn.btn-primary {
+    color: #fff;
+    background-color: #2265a9;
+    border-color: #2265a9;
+}
+
+.text-style-first {
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 1px solid black;
+    padding-top: 0rem;
+}
+
+.text-style-second {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+}
+
+.contact {
+    font-size: .7rem;
+    text-align: end;
+    padding-top: 1.2rem;
+}
+
+.card-title {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-content {
+    background-color: #e8e8e8;
+}
+.card-body {
+    padding: 1.5rem;;
+}
+.card-footer {
+background-color: none;
+border-top: none;
+background-color: #e8e8e8;
+}
+.text-muted {
+    color: blue !important;
+    cursor: pointer;
+}
+
+.card-group {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flex-img {
+    margin-top: 1.25rem;
+    margin-left: .25rem;
+}
+
+.card-body-bottom {
+    padding: .5rem;
+}
+
+.card-footer-bottom {
+    padding: .25rem .25rem;
+    background-color: none;
+    border: none;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .11rem .5rem;
+    background-color: #e8e8e8;
+}
+
+.list-title {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: .1rem dashed grey;
+}
+
+.list-items {
+    color: blue;
+    font-size: .9rem;
+    align-items: right;
+    cursor: pointer;
+}
+
+.footer {
+    background-color:#2265a9;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: .5rem;
+}
+
+

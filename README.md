@@ -1,0 +1,1 @@
+Continued the responsive web pages, and created them also with Bootstrap
